@@ -1,0 +1,68 @@
+# Chapter 3
+
+We hope this manuscript contains all the basic things you need to know to get started writing a book using Leanpub-Flavored Markdown.
+
+If you switch to writing in the Markua syntax instead of Leanpub-Flavored Markdown, please be sure to rename the `images` folder in your `manuscript` folder to `resources.`
+
+If there is anything simple that you think we should add, please email us at <hello@leanpub.com>.
+
+We recommend you take a few minutes to explore all the options in the Book Tools menu for your book on Leanpub. We've built a lot of powerful features that can help you write and sell your book!
+
+Docker mit ubuntu starten
+
+````
+ docker run ubuntu -it /bash
+````
+
+Danach spielen wir die Updates in das System ein:
+
+````
+apt update
+apt -y full-upgrade
+````
+
+Dann installieren wir nginx und certbot
+
+````
+apt install -y nginx certbot
+````
+
+Die Konfigurationsdateien finden wir, wie üblich, im Verzeichnis /etc:
+
+````
+cd /etc/nginx
+ls -l
+````
+
+und sollten folgende Ausgabe vorfinden:
+
+````
+root@7210c1e00fa1:/etc/nginx# ls -l
+total 128
+drwxr-xr-x. 2 root root 4096 Nov  6 19:54 conf.d
+-rw-r--r--. 1 root root 1077 Apr  6  2018 fastcgi.conf
+-rw-r--r--. 1 root root 1007 Apr  6  2018 fastcgi_params
+-rw-r--r--. 1 root root 2837 Apr  6  2018 koi-utf
+-rw-r--r--. 1 root root 2223 Apr  6  2018 koi-win
+-rw-r--r--. 1 root root 3957 Apr  6  2018 mime.types
+drwxr-xr-x. 2 root root 4096 Nov  6 19:54 modules-available
+drwxr-xr-x. 2 root root 4096 May  7 07:58 modules-enabled
+-rw-r--r--. 1 root root 1482 Apr  6  2018 nginx.conf
+-rw-r--r--. 1 root root  180 Apr  6  2018 proxy_params
+-rw-r--r--. 1 root root  636 Apr  6  2018 scgi_params
+drwxr-xr-x. 2 root root 4096 May  7 07:58 sites-available
+drwxr-xr-x. 2 root root 4096 May  7 07:58 sites-enabled
+drwxr-xr-x. 2 root root 4096 May  7 07:58 snippets
+-rw-r--r--. 1 root root  664 Apr  6  2018 uwsgi_params
+-rw-r--r--. 1 root root 3071 Apr  6  2018 win-utf
+````
+
+Mit folgendem Befehlt können wir die Konfiguration auf Syntaxfehler überprüfen:
+
+````
+nginx -t
+````
+
+In den Ordnern sites-avaible und sites-enabled werden die Websites verwaltet. Unter avaible wird die Konfiguration vorbereitet und unter enabled wird sie dann "scharf" geschaltet durch einen symbolischen Verweis auf die Konfigurationsdatei im verezichnis avaible.
+
+

@@ -1,0 +1,6 @@
+# Starten mit Python
+
+Wir verwenden in diesem Buch Python 3. Du kannst auf keinen Fall Python 2 verwenden, die Unterschiede sind sehr groß.
+
+Du kannst Python unter allen gängigen Bezriebssystemen verwenden wie Mac OS, Windows, Linux, Unix oder Android. Du kannst Python [direkt hier herunterladen:](https://www.python.org/downloads/).
+
