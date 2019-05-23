@@ -6,10 +6,15 @@ Du kannst Python unter allen gängigen Betriebssystemen verwenden wie Mac OS, Wi
 
 ## Aufgaben
 
-1. Mach Dich mit Deiner Python-Umgebung vertraut. Du solltest zwei Sachen finden: 
+1. Mach Dich mit Deiner Python-Umgebung vertraut. Du solltest zwei Sachen finden:
 
     - Wie kann ich eine neue Datei anlegen?
     - Wo finde ich das Fenster in dem ein Cursor blinkt?
-    
+
 2. Was bedeutet der Begriff REPL im Bereich Programmieren?
 
+so
+so
+
+
+gbmnbvnbvbnvn
