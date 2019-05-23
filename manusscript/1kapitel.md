@@ -11,5 +11,5 @@ Du kannst Python unter allen gängigen Betriebssystemen verwenden wie Mac OS, Wi
     - Wie kann ich eine neue Datei anlegen?
     - Wo finde ich das Fenster in dem ein Cursor blinkt?
     
-2. Was bedeutet der Begriff REPL im Bereich programmieren?
+2. Was bedeutet der Begriff REPL im Bereich Programmieren?
 
